@@ -14,7 +14,7 @@ A first ruleset for the Quickstart
    long_trip = 1000;
   }
   
-  rule response_trip {
+  rule process_trip {
     select when car new_trip
     pre{
       length = event:attr("mileage")
